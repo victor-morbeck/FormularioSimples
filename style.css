@@ -19,8 +19,8 @@ h1{
     height: 35vw;
     border: 1px solid black;
     
-
 }
+
 form{
     display: flex;
     flex-direction:column;
@@ -34,24 +34,28 @@ form{
 }
 
 label{
-    font-size: large;
+    font-size: x-large;
+    /* background-color: #b2a700; */
+    color: #770493;
 }
 
 
 input{
-    border: 2px solid gray;
+    border: 2px solid #770493;
     display: flex;
     padding: 10px;
     border-radius: 5px;
     margin: 5px;
     margin-left: 0px;
     margin-right: 0px;
+    font-size: large;
 }
 
 button{
     background-color: #b2a700;
     padding: 10px;
     border-radius: 5px;
-    font-size: large;
+    font-size:large;
+    
 
 }
